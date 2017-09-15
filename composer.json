@@ -1,0 +1,28 @@
+{
+    "name": "uccu/dmcat-orl",
+    "description": "orm for dmcat",
+    "keywords": ["dmcat","orm","pzcat"],
+    "homepage": "https://github.com/uccu/dmcat-orm",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pzcat",
+            "email": "cat@4moe.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "uccu/dmcat-tool":"dev-master"
+    },
+    "autoload": {
+		"psr-4": {
+            "Uccu\\DmcatOrm\\": "Lib"
+		}
+	},
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
